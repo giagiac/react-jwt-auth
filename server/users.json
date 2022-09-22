@@ -1,3 +1,28 @@
 {
-  "users": [{ "id": 2, "email": "test@gmail.com", "password": "123456" }]
+  "users": [
+    {
+      "id": 2,
+      "username": "test@gmail.com",
+      "password": "123456",
+      "userRole": {
+        "id": "abcdefgh",
+        "login": "Mario Rossi",
+        "role": "seller",
+        "authorities": ["pascal", "borlan", "c++"],
+        "email": "test@gmail.com"
+      }
+    },
+    {
+      "id": 2,
+      "username": "customer@gmail.com",
+      "password": "123456",
+      "userRole": {
+        "id": "abcdefgh",
+        "login": "Mario Rossi",
+        "role": "customer",
+        "authorities": ["pascal", "borlan", "c++"],
+        "email": "customer@gmail.com"
+      }
+    }
+  ]
 }

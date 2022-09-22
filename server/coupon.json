@@ -1,0 +1,16 @@
+{
+  "id": "123",
+  "code": "AABBCCDD",
+  "value": 144,
+  "discountType": "O",
+  "validityStart": "01.01.2022",
+  "validityEnd": "31.12.2022",
+  "stayFrom": "01.01.2022",
+  "stayTo": "01.01.2022",
+  "minAmount": 100,
+  "maxDiscountValue": 200,
+  "description": "Acqua delle rose",
+  "title": "Catch me",
+  "type": "A",
+  "reference": ["google.com", "tim.it", "bbc.com"]
+}

@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "type": "C",
+    "description": "Description First",
+    "link": "coupon/abcfeghtopoernanfa",
+    "notifications": ["links/1", "links/2", "links/3", "links/4"],
+    "notify_count": 4
+  },
+  {
+    "id": 2,
+    "type": "P",
+    "description": "Description Second",
+    "link": "products/abcfeghtopoernanfa",
+    "notifications": ["links/1", "links/2", "links/3", "links/4"],
+    "notify_count": 4
+  },
+  {
+    "id": 3,
+    "type": "H",
+    "description": "Description Third",
+    "link": "hotels/abcfeghtopoernanfa",
+    "notifications": ["links/1", "links/2", "links/3", "links/4"],
+    "notify_count": 4
+  },
+  {
+    "id": 4,
+    "type": "S",
+    "description": "Description four",
+    "link": "services/abcfeghtopoernanfa",
+    "notifications": ["links/1", "links/2", "links/3", "links/4"],
+    "notify_count": 4
+  },
+  {
+    "id": 5,
+    "type": "S",
+    "description": "Description five",
+    "link": "services/abcfeghtopoernanfa",
+    "notifications": ["links/1", "links/2", "links/3", "links/4"],
+    "notify_count": 4
+  },
+  {
+    "id": 6,
+    "type": "S",
+    "description": "Description six",
+    "link": "services/abcfeghtopoernanfa",
+    "notifications": ["links/1", "links/2", "links/3", "links/4"],
+    "notify_count": 4
+  },
+  {
+    "id": 7,
+    "type": "H",
+    "description": "Description seven",
+    "link": "hotel/abcfeghtopoernanfa",
+    "notifications": ["links/1", "links/2", "links/3", "links/4"],
+    "notify_count": 4
+  },
+  {
+    "id": 8,
+    "type": "H",
+    "description": "Description eight",
+    "link": "hotel/abcfeghtopoernanfa",
+    "notifications": ["links/1", "links/2", "links/3", "links/4"],
+    "notify_count": 4
+  },
+  {
+    "id": 9,
+    "type": "C",
+    "description": "Description nine",
+    "link": "coupons/abcdefghi",
+    "notifications": ["links/1", "links/2", "links/3", "links/4"],
+    "notify_count": 4
+  }
+]

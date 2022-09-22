@@ -1,0 +1,44 @@
+{
+  "id": "345",
+  "reservationCode": "ABCDEFG",
+  "checkin": "01.02.2022",
+  "checkout": "02.03.2022",
+  "photos": [
+    {
+      "id": "1",
+      "originalUrl": "https://source.unsplash.com/random",
+      "thumbUrl": "https://source.unsplash.com/random/300x300",
+      "normalUrl": "https://source.unsplash.com/random",
+      "title": "Mutante",
+      "altTag": "Una foto random"
+    },
+    {
+      "id": "2",
+      "originalUrl": "https://source.unsplash.com/random",
+      "thumbUrl": "https://source.unsplash.com/random/300x300",
+      "normalUrl": "https://source.unsplash.com/random",
+      "title": "Mutante",
+      "altTag": "Una foto random"
+    },
+    {
+      "id": "3",
+      "originalUrl": "https://source.unsplash.com/random",
+      "thumbUrl": "https://source.unsplash.com/random/300x300",
+      "normalUrl": "https://source.unsplash.com/random",
+      "title": "Mutante",
+      "altTag": "Una foto random"
+    },
+    {
+      "id": "4",
+      "originalUrl": "https://source.unsplash.com/random",
+      "thumbUrl": "https://source.unsplash.com/random/300x300",
+      "normalUrl": "https://source.unsplash.com/random",
+      "title": "Mutante",
+      "altTag": "Una foto random"
+    }
+  ],
+  "description": "Un'offerta irripetibile",
+  "originalAmount": 120,
+  "discountedAmount": 100,
+  "currency": "€"
+}

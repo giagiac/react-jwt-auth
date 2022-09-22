@@ -24,7 +24,7 @@ const Login = ({ setLogoutUser }) => {
   const login = (e) => {
     e.preventDefault();
     axiox
-      .post("http://localhost:5000/api/auth/login", {
+      .post("http://172.24.1.194:5000/api/auth/login", {
         email,
         password,
       })

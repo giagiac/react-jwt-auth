@@ -24,7 +24,7 @@ const Register = ({ setLogoutUser }) => {
   const register = (e) => {
     e.preventDefault();
     axiox
-      .post("http://localhost:5000/api/auth/register", {
+      .post("http://172.24.1.194:5000/api/auth/register", {
         email,
         password,
       })

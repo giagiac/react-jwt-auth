@@ -1,0 +1,58 @@
+{
+  "id": "123",
+  "title": "Titolo offerta",
+  "description": "Descrizione offerta",
+  "stayStart": "01.01.2022",
+  "stayEnd": "01.01.2023",
+  "address": {
+    "id": "123",
+    "streetname": "via del Zotto, 45",
+    "city": "Cervignano del friuli",
+    "province": "UD",
+    "region": "FVG",
+    "zipCode": "33052",
+    "hNumber": "34",
+    "country": "Italy"
+  },
+  "type": "A",
+  "availability": "5",
+  "maxBuyableQty": "2",
+  "structureType": "H",
+  "originalAmount": 120,
+  "discountedAmount": 90,
+  "tags": ["Stanza grande con facilities", "bagno ampio"],
+  "photos": [
+    {
+      "id": "1",
+      "originalUrl": "https://source.unsplash.com/random",
+      "thumbUrl": "https://source.unsplash.com/random/300x300",
+      "normalUrl": "https://source.unsplash.com/random",
+      "title": "Mutante",
+      "altTag": "Una foto random"
+    },
+    {
+      "id": "2",
+      "originalUrl": "https://source.unsplash.com/random",
+      "thumbUrl": "https://source.unsplash.com/random/300x300",
+      "normalUrl": "https://source.unsplash.com/random",
+      "title": "Mutante",
+      "altTag": "Una foto random"
+    },
+    {
+      "id": "3",
+      "originalUrl": "https://source.unsplash.com/random",
+      "thumbUrl": "https://source.unsplash.com/random/300x300",
+      "normalUrl": "https://source.unsplash.com/random",
+      "title": "Mutante",
+      "altTag": "Una foto random"
+    },
+    {
+      "id": "4",
+      "originalUrl": "https://source.unsplash.com/random",
+      "thumbUrl": "https://source.unsplash.com/random/300x300",
+      "normalUrl": "https://source.unsplash.com/random",
+      "title": "Mutante",
+      "altTag": "Una foto random"
+    }
+  ]
+}

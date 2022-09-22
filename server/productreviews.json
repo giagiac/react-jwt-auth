@@ -1,0 +1,151 @@
+[
+  {
+    "idprodotto": 1,
+    "titolo": "La mia recensione",
+    "immagine": "https://picsum.photos/200/300",
+    "stato": 2,
+    "rating": 1,
+    "recensioni": [
+      {
+        "testo": "Una mia recensione dettagliata di quello che pensoUna mia recensione dettagliata di quello che pensoUna mia recensione dettagliata di quello che pensoUna mia recensione dettagliata di quello che penso....",
+        "crupdate": "2022-01-01 8:20:11",
+        "risposta": "Quello che hai detto c'ha fatto molto piacere",
+        "crupdaterisposta": "2022-01-01 8:20:11"
+      },
+      {
+        "testo": "Una mia recensione dettagliata di quello che pensoUna mia recensione dettagliata di quello che pensoUna mia recensione dettagliata di quello che pensoUna mia recensione dettagliata di quello che penso....",
+        "crupdate": "2022-01-01 8:20:11",
+        "risposta": "Quello che hai detto c'ha fatto molto piacere",
+        "crupdaterisposta": "2022-01-01 8:20:11"
+      },
+      {
+        "testo": "Una mia recensione dettagliata di quello che pensoUna mia recensione dettagliata di quello che pensoUna mia recensione dettagliata di quello che pensoUna mia recensione dettagliata di quello che penso....",
+        "crupdate": "2022-01-01 8:20:11",
+        "risposta": "Quello che hai detto c'ha fatto molto piacere",
+        "crupdaterisposta": "2022-01-01 8:20:11"
+      }
+    ]
+  },
+  {
+    "idprodotto": 2,
+    "titolo": "La mia recensione",
+    "immagine": "https://picsum.photos/200/300",
+    "stato": 2,
+    "rating": 2,
+    "recensioni": [
+        {
+          "testo": "Una mia recensione dettagliata di quello che pensoUna mia recensione dettagliata di quello che pensoUna mia recensione dettagliata di quello che pensoUna mia recensione dettagliata di quello che penso....",
+          "crupdate": "2022-01-01 8:20:11",
+          "risposta": "Quello che hai detto c'ha fatto molto piacere",
+          "crupdaterisposta": "2022-01-01 8:20:11"
+        },
+        {
+          "testo": "Una mia recensione dettagliata di quello che pensoUna mia recensione dettagliata di quello che pensoUna mia recensione dettagliata di quello che pensoUna mia recensione dettagliata di quello che penso....",
+          "crupdate": "2022-01-01 8:20:11",
+          "risposta": "Quello che hai detto c'ha fatto molto piacere",
+          "crupdaterisposta": "2022-01-01 8:20:11"
+        },
+        {
+          "testo": "Una mia recensione dettagliata di quello che pensoUna mia recensione dettagliata di quello che pensoUna mia recensione dettagliata di quello che pensoUna mia recensione dettagliata di quello che penso....",
+          "crupdate": "2022-01-01 8:20:11",
+          "risposta": "Quello che hai detto c'ha fatto molto piacere",
+          "crupdaterisposta": "2022-01-01 8:20:11"
+        }
+      ]
+  },
+  {
+    "idprodotto": 3,
+    "titolo": "La mia recensione",
+    "immagine": "https://picsum.photos/200/300",
+    "stato": 2,
+    "rating": 3,
+    "recensioni": [
+        {
+          "testo": "Una mia recensione dettagliata di quello che pensoUna mia recensione dettagliata di quello che pensoUna mia recensione dettagliata di quello che pensoUna mia recensione dettagliata di quello che penso",
+          "crupdate": "2022-01-01 8:20:11",
+          "risposta": "Quello che hai detto c'ha fatto molto piacere",
+          "crupdaterisposta": "2022-01-01 8:20:11"
+        },
+        {
+          "testo": "Una mia recensione dettagliata di quello che pensoUna mia recensione dettagliata di quello che pensoUna mia recensione dettagliata di quello che pensoUna mia recensione dettagliata di quello che penso....",
+          "crupdate": "2022-01-01 8:20:11",
+          "risposta": "Quello che hai detto c'ha fatto molto piacere",
+          "crupdaterisposta": "2022-01-01 8:20:11"
+        },
+        {
+          "testo": "Una mia recensione dettagliata di quello che pensoUna mia recensione dettagliata di quello che pensoUna mia recensione dettagliata di quello che pensoUna mia recensione dettagliata di quello che penso....",
+          "crupdate": "2022-01-01 8:20:11",
+          "risposta": "Quello che hai detto c'ha fatto molto piacere",
+          "crupdaterisposta": "2022-01-01 8:20:11"
+        }
+      ]
+  },
+  {
+    "idprodotto": 4,
+    "titolo": "La mia recensione",
+    "immagine": "https://picsum.photos/200/300",
+    "stato": 2,
+    "rating": 4,
+    "recensioni": [
+      {
+        "testo": "Una mia recensione dettagliata di quello che pensoUna mia recensione dettagliata di quello che pensoUna mia recensione dettagliata di quello che pensoUna mia recensione dettagliata di quello che penso....",
+        "crupdate": "2022-01-01 8:20:11",
+        "risposta": "Quello che hai detto c'ha fatto molto piacere",
+        "crupdaterisposta": "2022-01-01 8:20:11"
+      }
+    ]
+  },
+  {
+    "idprodotto": 5,
+    "titolo": "La mia recensione",
+    "immagine": "https://picsum.photos/200/300",
+    "stato": 2,
+    "rating": 5,
+    "recensioni": [
+      {
+        "testo": "Una mia recensione dettagliata di quello che pensoUna mia recensione dettagliata di quello che pensoUna mia recensione dettagliata di quello che pensoUna mia recensione dettagliata di quello che penso....",
+        "crupdate": "2022-01-01 8:20:11",
+        "risposta": "Quello che hai detto c'ha fatto molto piacere",
+        "crupdaterisposta": "2022-01-01 8:20:11"
+      }
+    ]
+  },
+  {
+    "idprodotto": 6,
+    "titolo": "La mia recensione",
+    "immagine": "https://picsum.photos/200/300",
+    "stato": 2,
+    "rating": 6,
+    "recensioni": [
+      {
+        "testo": "Una mia recensione dettagliata di quello che pensoUna mia recensione dettagliata di quello che pensoUna mia recensione dettagliata di quello che pensoUna mia recensione dettagliata di quello che penso....",
+        "crupdate": "2022-01-01 8:20:11",
+        "risposta": "Quello che hai detto c'ha fatto molto piacere",
+        "crupdaterisposta": "2022-01-01 8:20:11"
+      }
+    ]
+  },
+  {
+    "idprodotto": 7,
+    "titolo": "La mia recensione",
+    "immagine": "https://picsum.photos/200/300",
+    "stato": 0,
+    "rating": 0,
+    "recensioni": null
+  },
+  {
+    "idprodotto": 6,
+    "titolo": "La mia recensione",
+    "immagine": "https://picsum.photos/200/300",
+    "stato": 2,
+    "rating": 6,
+    "recensioni": [
+      {
+        "testo": "Una mia recensione dettagliata di quello che pensoUna mia recensione dettagliata di quello che pensoUna mia recensione dettagliata di quello che pensoUna mia recensione dettagliata di quello che penso....",
+        "crupdate": "2022-01-01 8:20:11",
+        "risposta": "Quello che hai detto c'ha fatto molto piacere",
+        "crupdaterisposta": "2022-01-01 8:20:11"
+      }
+    ]
+  }
+]
