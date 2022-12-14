@@ -1,0 +1,52 @@
+[
+  {
+    "immagine": "https://picsum.photos/200/300",
+    "description": "1. La mia offerta riservata per me...",
+    "descriptionHotel": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio, eaque rerum! Provident similique accusantium nemo autem.",
+    "price": "30,00€",
+    "discountPrice": "15,00€",
+    "percDiscount": "-20%",
+    "cashBack": "10,00€"
+  },
+  {
+    "immagine": "https://picsum.photos/200/300",
+    "description": "2. La mia offerta riservata per me...",
+    "descriptionHotel": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio, eaque rerum! Provident similique accusantium nemo autem.",
+    "price": "30,00€",
+    "discountPrice": "15,00€",
+    "percDiscount": "-20%",
+    "cashBack": "10,00€"
+  },{
+    "immagine": "https://picsum.photos/200/300",
+    "description": "3. La mia offerta riservata per me...",
+    "descriptionHotel": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio, eaque rerum! Provident similique accusantium nemo autem.",
+    "price": "30,00€",
+    "discountPrice": "15,00€",
+    "percDiscount": "-20%",
+    "cashBack": "10,00€"
+  },{
+    "immagine": "https://picsum.photos/200/300",
+    "description": "4. La mia offerta riservata per me...",
+    "descriptionHotel": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio, eaque rerum! Provident similique accusantium nemo autem.",
+    "price": "30,00€",
+    "discountPrice": "15,00€",
+    "percDiscount": "-20%",
+    "cashBack": "10,00€"
+  },{
+    "immagine": "https://picsum.photos/200/300",
+    "description": "5. La mia offerta riservata per me...",
+    "descriptionHotel": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio, eaque rerum! Provident similique accusantium nemo autem.",
+    "price": "30,00€",
+    "discountPrice": "15,00€",
+    "percDiscount": "-20%",
+    "cashBack": "10,00€"
+  },{
+    "immagine": "https://picsum.photos/200/300",
+    "description": "6. La mia offerta riservata per me...",
+    "descriptionHotel": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio, eaque rerum! Provident similique accusantium nemo autem.",
+    "price": "30,00€",
+    "discountPrice": "15,00€",
+    "percDiscount": "-20%",
+    "cashBack": "10,00€"
+  }
+]

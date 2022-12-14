@@ -1,3 +1,5 @@
+const basePath = "/endpoint"
+
 const fs = require('fs')
 const bodyParser = require('body-parser')
 const jsonServer = require('json-server')
@@ -8,7 +10,9 @@ const userdb = JSON.parse(fs.readFileSync('./users.json', 'utf-8'))
 
 server.use(bodyParser.urlencoded({ extended: true }))
 server.use(bodyParser.json())
-server.use(jsonServer.defaults())
+server.use(
+  jsonServer.defaults()
+)
 
 const SECRET_KEY = '72676376'
 
@@ -17,6 +21,7 @@ const expiresIn = '1h'
 const wishesData = require('./wishes.json')
 const couponsData = require('./coupons.json')
 const productReviews = require('./productreviews.json')
+const offerte = require('./offerte.json')
 
 const coupon = require('./coupon.json')
 const prenotazione = require('./prenotazione.json')
@@ -34,7 +39,7 @@ function isRegisterAuthenticated({ username }) {
   return userdb.users.findIndex(user => user.username === username) !== -1
 }
 
-server.post('/api/v1/auth/register', (req, res) => {
+server.post(basePath + '/api/v1/auth/register', (req, res) => {
   const { email, company_email, password } = req.body
   res.status(200).json({
     id: 123456
@@ -77,7 +82,7 @@ server.post('/api/v1/auth/register', (req, res) => {
   // })
 })
 
-server.post('/api/v1/auth/check', (req, res) => {
+server.post(basePath + '/api/v1/auth/check', (req, res) => {
   const { token } = req.body
   console.log(req.body)
   const user = userdb.users.find(user => user.username === req.body.email)
@@ -86,7 +91,7 @@ server.post('/api/v1/auth/check', (req, res) => {
   })
 })
 
-server.post('/api/v1/auth/login', (req, res) => {
+server.post(basePath + '/api/v1/auth/login', (req, res) => {
   const { username, password } = req.body
   console.log(req.body)
   if (!isLoginAuthenticated({ username, password })) {
@@ -99,7 +104,7 @@ server.post('/api/v1/auth/login', (req, res) => {
   res.status(200).json({ access_token, email: username })
 })
 
-server.post('/api/v1/auth/reset-password', (req, res) => {
+server.post(basePath + '/api/v1/auth/reset-password', (req, res) => {
   const { email } = req.body
   console.log(email)
   res.status(200).json({})
@@ -107,12 +112,12 @@ server.post('/api/v1/auth/reset-password', (req, res) => {
 
 // SELLER
 
-server.post('/api/v1/auth/seller-register', (req, res) => {
+server.post(basePath + '/api/v1/auth/seller-register', (req, res) => {
   console.log(req.body)
   res.status(200).json({})
 })
 
-server.get('/api/v1/seller/readQR/vc=:vc&cs=:cs', (req, res) => {
+server.get(basePath + '/api/v1/seller/readQR/vc=:vc&cs=:cs', (req, res) => {
   console.log(req.body)
   res.status(200).json({
     id: parseInt(Math.random() * 100),
@@ -135,7 +140,23 @@ server.get('/api/v1/seller/readQR/vc=:vc&cs=:cs', (req, res) => {
   })
 })
 
-server.get('/api/v1/seller/:id', (req, res) => {
+server.get(basePath + '/api/v1/seller/object/:type/:id', (req, res) => {
+  console.log(req.originalUrl.split(basePath + '/')[5])
+
+  switch (req.originalUrl.split(basePath + '/')[5]) {
+    case 'offerta':
+      res.status(200).json(offerta)
+      break
+    case 'coupon':
+      res.status(200).json(coupon)
+      break
+    case 'prenotazione':
+      res.status(200).json(prenotazione)
+      break
+  }
+})
+
+server.get(basePath + '/api/v1/seller/:id', (req, res) => {
   console.log(req.query.id)
   res.status(200).json({
     cognome: 'CO',
@@ -168,51 +189,62 @@ server.get('/api/v1/seller/:id', (req, res) => {
   })
 })
 
-server.put('/api/v1/seller/:id', (req, res) => {
+server.get(basePath + '/', (req, res) => {
+  console.log(req.query.id)
+})
+
+server.put(basePath + '/api/v1/seller/:id', (req, res) => {
   console.log(req.query.id)
   res.status(200).json({
     id: 1234567
   })
 })
 
-server.post('/api/v1/seller/addemployee', (req, res) => {
+server.post(basePath + '/api/v1/seller/addemployee', (req, res) => {
   console.log(req.body)
   res.status(200).json({})
 })
 
-server.get('/api/v1/seller/object/:type/:id', (req, res) => {
-  console.log(req.query)
-  switch (req.query.type) {
-    case 'offerta':
-      res.status(200).json(offerta)
-      break
-    case 'coupon':
-      res.status(200).json(coupon)
-      break
-    case 'prenotazione':
-      res.status(200).json(prenotazione)
-      break
-  }
+server.post(basePath + '/api/v1/seller/customer', (req, res) => {
+  console.log(req.body)
+  res.status(200).json({})
 })
 
 // CUSTOMERS
 
-server.get('/api/v1/customer/wishes', (req, res) => {
+server.get(basePath + '/api/v1/customer/wishes', (req, res) => {
   console.log(req.body)
   res.status(200).json(wishesData)
 })
 
-server.get('/api/v1/customer/coupons', (req, res) => {
+server.get(basePath + '/api/v1/customer/coupons', (req, res) => {
   console.log(req.body)
   res.status(200).json(couponsData)
 })
 
-server.get('/api/v1/user/productreviews/:id', (req, res) => {
+server.get(basePath + '/api/v1/customer/couponsSaved', (req, res) => {
+  console.log(req.body)
+  const couponsSaved = couponsData.slice(0, 3)
+  res.status(200).json(couponsSaved)
+})
+
+server.get(basePath + '/api/v1/customer/couponsItem', (req, res) => {
+  console.log(req.body)
+  const coupon = couponsData.find(it => it.link === req.query.link)
+  res.status(200).json(coupon)
+})
+
+server.get(basePath + '/api/v1/user/productreviews/:id', (req, res) => {
   console.log(req.body)
   res.status(200).json(productReviews)
 })
 
-server.get('/api/v1/user/:id', (req, res) => {
+server.get(basePath + '/api/v1/customer/offert', (req, res) => {
+  console.log(req.body)
+  res.status(200).json(offerte)
+})
+
+server.get(basePath + '/api/v1/user/:id', (req, res) => {
   console.log(req.query.id)
   res.status(200).json({
     name: "Nome dell'utente",
@@ -244,7 +276,7 @@ server.get('/api/v1/user/:id', (req, res) => {
   })
 })
 
-server.put('/api/v1/user/:id', (req, res) => {
+server.put(basePath + '/api/v1/user/:id', (req, res) => {
   console.log(req.query.id)
   res.status(200).json({
     id: 1234567

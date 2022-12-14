@@ -5,47 +5,71 @@
     "description": "Description First",
     "link": "coupon/abcfeghtopoernanfa",
     "notifications": ["links/1", "links/2", "links/3", "links/4"],
-    "notify_count": 4
+    "notify_count": 4,
+    "validity":"Dal 1.1.2022 al 31.12.2022",
+    "location": "/example/location.jpg",
+    "value": "BUONO SCONTO €20,00",
+    "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut! Impedit sit sunt quaerat, odit, tenetur error, harum nesciunt ipsum debitis quas aliquid. Reprehenderit, quia."
   },
   {
     "id": 2,
     "type": "P",
     "description": "Description Second",
-    "link": "products/abcfeghtopoernanfa",
+    "link": "product/abcfeghtopoernanfa",
     "notifications": ["links/1", "links/2", "links/3", "links/4"],
-    "notify_count": 4
+    "notify_count": 4,
+    "validity":"Dal 1.1.2022 al 31.12.2022",
+    "location": "/example/location.jpg",
+    "value": "BUONO SCONTO €20,00",
+    "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut! Impedit sit sunt quaerat, odit, tenetur error, harum nesciunt ipsum debitis quas aliquid. Reprehenderit, quia."
   },
   {
     "id": 3,
     "type": "H",
     "description": "Description Third",
-    "link": "hotels/abcfeghtopoernanfa",
+    "link": "hotel/abcfeghtopoernanfa",
     "notifications": ["links/1", "links/2", "links/3", "links/4"],
-    "notify_count": 4
+    "notify_count": 4,
+    "validity":"Dal 1.1.2022 al 31.12.2022",
+    "location": "/example/location.jpg",
+    "value": "BUONO SCONTO €20,00",
+    "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut! Impedit sit sunt quaerat, odit, tenetur error, harum nesciunt ipsum debitis quas aliquid. Reprehenderit, quia."
   },
   {
     "id": 4,
     "type": "S",
     "description": "Description four",
-    "link": "services/abcfeghtopoernanfa",
+    "link": "service/abcfeghtopoernanfa",
     "notifications": ["links/1", "links/2", "links/3", "links/4"],
-    "notify_count": 4
+    "notify_count": 4,
+    "validity":"Dal 1.1.2022 al 31.12.2022",
+    "location": "/example/location.jpg",
+    "value": "BUONO SCONTO €20,00",
+    "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut! Impedit sit sunt quaerat, odit, tenetur error, harum nesciunt ipsum debitis quas aliquid. Reprehenderit, quia."
   },
   {
     "id": 5,
     "type": "S",
     "description": "Description five",
-    "link": "services/abcfeghtopoernanfa",
+    "link": "service/abcfeghtopoernanfa",
     "notifications": ["links/1", "links/2", "links/3", "links/4"],
-    "notify_count": 4
+    "notify_count": 4,
+    "validity":"Dal 1.1.2022 al 31.12.2022",
+    "location": "/example/location.jpg",
+    "value": "BUONO SCONTO €20,00",
+    "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut! Impedit sit sunt quaerat, odit, tenetur error, harum nesciunt ipsum debitis quas aliquid. Reprehenderit, quia."
   },
   {
     "id": 6,
     "type": "S",
     "description": "Description six",
-    "link": "services/abcfeghtopoernanfa",
+    "link": "service/abcfeghtopoernanfa",
     "notifications": ["links/1", "links/2", "links/3", "links/4"],
-    "notify_count": 4
+    "notify_count": 4,
+    "validity":"Dal 1.1.2022 al 31.12.2022",
+    "location": "/example/location.jpg",
+    "value": "BUONO SCONTO €20,00",
+    "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut! Impedit sit sunt quaerat, odit, tenetur error, harum nesciunt ipsum debitis quas aliquid. Reprehenderit, quia."
   },
   {
     "id": 7,
@@ -53,7 +77,11 @@
     "description": "Description seven",
     "link": "hotel/abcfeghtopoernanfa",
     "notifications": ["links/1", "links/2", "links/3", "links/4"],
-    "notify_count": 4
+    "notify_count": 4,
+    "validity":"Dal 1.1.2022 al 31.12.2022",
+    "location": "/example/location.jpg",
+    "value": "BUONO SCONTO €20,00",
+    "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut! Impedit sit sunt quaerat, odit, tenetur error, harum nesciunt ipsum debitis quas aliquid. Reprehenderit, quia."
   },
   {
     "id": 8,
@@ -61,14 +89,22 @@
     "description": "Description eight",
     "link": "hotel/abcfeghtopoernanfa",
     "notifications": ["links/1", "links/2", "links/3", "links/4"],
-    "notify_count": 4
+    "notify_count": 4,
+    "validity":"Dal 1.1.2022 al 31.12.2022",
+    "location": "/example/location.jpg",
+    "value": "BUONO SCONTO €20,00",
+    "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut! Impedit sit sunt quaerat, odit, tenetur error, harum nesciunt ipsum debitis quas aliquid. Reprehenderit, quia."
   },
   {
     "id": 9,
     "type": "C",
     "description": "Description nine",
-    "link": "coupons/abcdefghi",
+    "link": "coupon/abcdefghi",
     "notifications": ["links/1", "links/2", "links/3", "links/4"],
-    "notify_count": 4
+    "notify_count": 4,
+    "validity":"Dal 1.1.2022 al 31.12.2022",
+    "location": "/example/location.jpg",
+    "value": "BUONO SCONTO €20,00",
+    "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut! Impedit sit sunt quaerat, odit, tenetur error, harum nesciunt ipsum debitis quas aliquid. Reprehenderit, quia."
   }
 ]

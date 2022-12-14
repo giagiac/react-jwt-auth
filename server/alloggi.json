@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "type": "C",
+    "description": "Casa Serena",
+    "validity":"Dal 1.1.2022 al 31.12.2022",
+    "location": "/example/casa_singola.jpg",
+    "price": "€120,00",
+    "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut! Impedit sit sunt quaerat, odit, tenetur error, harum nesciunt ipsum debitis quas aliquid. Reprehenderit, quia."
+  },
+  {
+    "id": 2,
+    "type": "A",
+    "description": "Appartamento Catullo",
+    "validity":"Dal 1.1.2022 al 31.12.2022",
+    "location": "/example/appartamento.jpg",
+    "price": "€90,00",
+    "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut! Impedit sit sunt quaerat, odit, tenetur error, harum nesciunt ipsum debitis quas aliquid. Reprehenderit, quia."
+  }
+]
