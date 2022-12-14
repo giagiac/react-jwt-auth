@@ -20,6 +20,7 @@ const expiresIn = '1h'
 
 const wishesData = require('./wishes.json')
 const couponsData = require('./coupons.json')
+const alloggiData = require('./alloggi.json')
 const productReviews = require('./productreviews.json')
 const offerte = require('./offerte.json')
 
@@ -220,6 +221,16 @@ server.get(basePath + '/api/v1/customer/wishes', (req, res) => {
 server.get(basePath + '/api/v1/customer/coupons', (req, res) => {
   console.log(req.body)
   res.status(200).json(couponsData)
+})
+
+server.get(basePath + '/api/v1/customer/alloggi', (req, res) => {
+  console.log(req.body)
+  res.status(200).json(alloggiData)
+})
+server.get(basePath + '/api/v1/customer/alloggiItem', (req, res) => {
+  console.log(req.body)
+  const alloggi = alloggiData.find(it => it.id === req.query.id)
+  res.status(200).json(alloggi)
 })
 
 server.get(basePath + '/api/v1/customer/couponsSaved', (req, res) => {
